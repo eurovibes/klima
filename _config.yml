@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+
+title: Prima Klima
+description: An ESP8266 based humidity and temperature sensor.
+logo: https://github.com/eurovibes/klima/raw/master/images/klima.png
+show_downloads: true
+
+github:
+  zip_url: downloads/fabrication.zip
+  tar_url: downloads/fabrication.tar.gz
