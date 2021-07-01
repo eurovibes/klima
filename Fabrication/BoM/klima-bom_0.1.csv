@@ -5,9 +5,10 @@ Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,
 4,J101 J102,Conn_02x04_Top_Bottom,ESP8266-01S,,,,PinHeader_2x04_P2.54mm_Vertical,,2
 5,J103 J105,Conn_01x02,PWR,,,,TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree,,2
 6,J104,Conn_01x03,serial,,,,PinHeader_1x03_P2.54mm_Vertical,,1
-7,SW101,SW_Push_45deg,BOOT,,,,SW_PUSH_6mm,,1
-8,U102,DHT11,DHT11,,,,Aosong_DHT11_5.5x12.0_P2.54mm,,1
-9,U101,WPMDH1100xx1S,WPMDH1100xx1S,,,,WPMDH1100xx1S,,1
+7,R101,R,10 kΩ,,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,1
+8,SW101,SW_Push_45deg,BOOT,,,,SW_PUSH_6mm,,1
+9,U102,DHT11,DHT11,,,,Aosong_DHT11_5.5x12.0_P2.54mm,,1
+10,U101,WPMDH1100xx1S,WPMDH1100xx1S,,,,WPMDH1100xx1S,,1
 
 
 
@@ -20,8 +21,8 @@ Revision:,0.1
 Date:,2021-07-01
 KiCad Version:,5.1.9+dfsg1-1~bpo10+1
 Statistics:
-Component Groups:,9
-Component Count:,15
-Fitted Components:,15
+Component Groups:,10
+Component Count:,16
+Fitted Components:,16
 Number of PCBs:,1
-Total Components:,15
+Total Components:,16
