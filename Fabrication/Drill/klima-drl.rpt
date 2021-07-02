@@ -1,5 +1,5 @@
 Drill report for /github/workspace/klima.kicad_pcb
-Created on Thu Jul  1 20:49:07 2021
+Created on Fri Jul  2 19:43:55 2021
 
 Copper Layer Stackup:
     =============================================================
@@ -10,14 +10,14 @@ Copper Layer Stackup:
 Drill file 'klima-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (11 holes)
+    T1  0.40mm  0.016"  (12 holes)
     T2  0.80mm  0.031"  (10 holes)
     T3  1.00mm  0.039"  (22 holes)
     T4  1.10mm  0.043"  (6 holes)
     T5  1.15mm  0.045"  (4 holes)
     T6  3.20mm  0.126"  (4 holes)
 
-    Total plated holes count 57
+    Total plated holes count 58
 
 
 Drill file 'klima-NPTH.drl' contains
