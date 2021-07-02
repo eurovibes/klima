@@ -14,15 +14,15 @@ Comment3 "To view a copy of this license, visit"
 Comment4 "This work is licensed under the CERN-OHL-S v2"
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J101
+L Connector_Generic:Conn_02x04_Odd_Even J101
 U 1 1 60DCCEA7
-P 5400 3200
-F 0 "J101" H 5450 3517 50  0000 C CNN
-F 1 "ESP8266-01S" H 5450 3426 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5400 3200 50  0001 C CNN
-F 3 "~" H 5400 3200 50  0001 C CNN
-	1    5400 3200
-	1    0    0    -1  
+P 5500 3300
+F 0 "J101" H 5550 3617 50  0000 C CNN
+F 1 "ESP8266-01S" H 5550 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5500 3300 50  0001 C CNN
+F 3 "~" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5100 3100 5200 3100
@@ -79,15 +79,15 @@ EN
 Text Label 5800 3400 0    50   ~ 0
 TX
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J102
+L Connector_Generic:Conn_02x04_Odd_Even J102
 U 1 1 60DD2A77
-P 6900 3200
-F 0 "J102" H 6950 3517 50  0000 C CNN
-F 1 "PROG" H 6950 3426 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 6900 3200 50  0001 C CNN
-F 3 "~" H 6900 3200 50  0001 C CNN
-	1    6900 3200
-	1    0    0    -1  
+P 7000 3300
+F 0 "J102" H 7050 3617 50  0000 C CNN
+F 1 "PROG" H 7050 3526 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 7000 3300 50  0001 C CNN
+F 3 "~" H 7000 3300 50  0001 C CNN
+	1    7000 3300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6600 3100 6700 3100
@@ -598,10 +598,10 @@ F 3 "~" H 6600 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0122
 U 1 1 60DE718E
 P 6600 4000
-F 0 "#PWR?" H 6600 3850 50  0001 C CNN
+F 0 "#PWR0122" H 6600 3850 50  0001 C CNN
 F 1 "+3V3" H 6615 4173 50  0000 C CNN
 F 2 "" H 6600 4000 50  0001 C CNN
 F 3 "" H 6600 4000 50  0001 C CNN
